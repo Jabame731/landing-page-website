@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
 function Header() {
-  console.log("client component");
+  console.log('client component');
 
-  return <div></div>;
+  return <div>test</div>;
 }
 
 export default Header;
