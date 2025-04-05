@@ -3,7 +3,7 @@
 function Header() {
   console.log('client component');
 
-  return <div>test</div>;
+  return <div></div>;
 }
 
 export default Header;
