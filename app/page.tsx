@@ -1,13 +1,18 @@
 import Image from "next/image";
 import Header from "./components/header";
+import Hero from "./components/hero";
 
 export default function Home() {
   console.log("test");
 
+  // container mx-auto px-4
+
   return (
-    <h1 className="text-3xl">
+    <>
       <Header />
-      test website
-    </h1>
+
+      <Hero />
+      <div className="h-600 bg-black"></div>
+    </>
   );
 }
