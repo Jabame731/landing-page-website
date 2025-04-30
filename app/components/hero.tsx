@@ -1,4 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 export default function Hero() {
   return (
@@ -24,8 +25,17 @@ export default function Hero() {
           assets with top-tier security services.
         </p>
         <div className="flex justify-center gap-4">
-          <Button size="lg">Get Protected</Button>
-          <Button variant="outline" size="lg">
+          <Button
+            className={cn(buttonVariants({ variant: "default", size: "lg" }))}
+          >
+            Get Protected
+          </Button>
+          <Button
+            className={cn(
+              buttonVariants({ variant: "outline", size: "lg" }),
+              "text-black"
+            )}
+          >
             Learn More
           </Button>
         </div>
