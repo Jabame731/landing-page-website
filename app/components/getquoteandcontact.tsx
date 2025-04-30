@@ -17,9 +17,9 @@ export default function GetQuoteAndContact() {
           </div>
 
           <p className="text-muted-foreground mb-6">
-            Need security services? Call us now. We'll assess your needs and
-            send over a detailed proposal. Once approved, we’ll deploy the guard
-            team.
+            Need security services? Call us now. We&apos;ll assess your needs
+            and send over a detailed proposal. Once approved, we&apos;ll deploy
+            the guard team.
           </p>
 
           {/* <Button variant="default" size="lg">

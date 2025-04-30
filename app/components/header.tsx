@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -12,7 +13,7 @@ export default function Header() {
       <div className="container mx-auto flex justify-between items-center h-20 px-4">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 text-xl font-bold">
-          <img src="/favicon.ico" alt="Logo" className="w-10 h-10" />
+          <Image src="/favicon.ico" alt="Logo" width={35} height={35} />
           Tri-J Security Agency
         </Link>
 

@@ -1,5 +1,3 @@
-import { Badge } from "@/components/ui/badge";
-
 export default function Aboutus() {
   return (
     <section className="w-full bg-white py-20 px-4">

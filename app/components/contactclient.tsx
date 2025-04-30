@@ -13,8 +13,8 @@ export default function ContactClient() {
           {/* Contact Info */}
           <div className="space-y-4">
             <p className="text-lg">
-              Got a question? Need a custom security solution? Reach out — we're
-              ready to help.
+              Got a question? Need a custom security solution? Reach out —
+              we&apos;re ready to help.
             </p>
             <div>
               <h2 className="text-xl font-semibold">Head Office</h2>

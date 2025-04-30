@@ -1,6 +1,3 @@
-// app/components/OurTeam.tsx
-
-import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 
 const team = [

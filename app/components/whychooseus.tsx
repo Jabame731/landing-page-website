@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge";
 import { ShieldCheck, Clock, Users, ThumbsUp } from "lucide-react";
 
 const features = [

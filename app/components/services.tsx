@@ -1,4 +1,3 @@
-import { Badge } from "@/components/ui/badge";
 import { ShieldCheck, Users, Eye, AlarmClock, MapPin } from "lucide-react";
 
 const services = [

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Facebook, Twitter, Linkedin } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -11,7 +12,13 @@ export default function Footer() {
         <div>
           <Link href="/" className="text-white font-bold text-xl">
             <span className="flex align-middle">
-              <img src="/favicon.ico" alt="Logo" className=" w-8 h-8 mr-2" />
+              <Image
+                src="/favicon.ico"
+                alt="Logo"
+                className=" mr-2"
+                width={35}
+                height={35}
+              />
               <span className="text-lg">TRI-J Security Agency </span>
             </span>
           </Link>
